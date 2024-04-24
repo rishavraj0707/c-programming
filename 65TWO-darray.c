@@ -1,4 +1,4 @@
-// print two dimensional array
+// Print two dimensional array 
 
 #include<stdio.h>
 int main()
@@ -13,7 +13,7 @@ int main()
         }
     }
 
-     for ( i=0; i<3;i++)
+    for (i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
         {
