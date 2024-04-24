@@ -4,10 +4,10 @@
 int main()
 {
     int num[]={7,3,5,4,6,7,2,4,6,7};
-    int n ,i ,count ;
+    int n ,i ,count=0;
     printf("Enter an element to search:");
     scanf("%d",&n);
-    count=0;
+   
     for(i=0;i<=9;i++)
     {
         if(num[i]==n)
