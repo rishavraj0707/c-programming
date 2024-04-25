@@ -27,10 +27,13 @@ int main()
             scanf("%d",&b[i][j]);
         }
     }
+
+    // adding two matrices
     for(i=0;i<r;++i)
         for(j=0;j<c;++j)
             sum[i][j]=a[i][j]+b[i][j];
 
+    // printing the result 
     printf("\nSum of two matries:\n");
     for(i=0;i<c;++i)
     {
