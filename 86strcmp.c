@@ -1,18 +1,5 @@
-// // Compare the two string using function
+// Compare the two string using function
 
-// #include<stdio.h>
-// void scmp(char *s1,char *s2);
-// int main()
-// {
-//     char s1[100];
-//     char s2[100];
-//     puts("Enter the first string");
-//     gets(s1);
-//     puts("Enter the second string");
-//     gets(s2);
-//     int n=scmp(s1,,s2);
-//     puts("%d",n);
-// }
 #include <stdio.h>
 #include <string.h>
  
