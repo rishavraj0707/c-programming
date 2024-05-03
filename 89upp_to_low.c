@@ -1,4 +1,4 @@
-// upper case to lower
+// upper case to lower case
 
 #include<stdio.h>
 int main()
