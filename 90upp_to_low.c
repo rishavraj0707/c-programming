@@ -1,4 +1,4 @@
-// lower case to upper case 
+// upper case to lower case 
 
 #include<stdio.h>
 void strupr(char *s);
@@ -14,9 +14,9 @@ void strupr(char *s)
 {
     while(*s!='\0')
     {
-        if(*s>='a' && *s<='z')
+        if(*s>='A' && *s<='Z')
         {
-            *s=*s-32;
+            *s=*s+32;
         }  
         s++;
     }  
